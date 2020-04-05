@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	
+ 
+}
+p{
+ text-align: center ;
+ font-size: 22px;
+  color: #6c757d;
+
+}
+a{
+	color: #007bff;
+}
+a:hover{
+	color: #0075f6;
+}
+#title{
+  font-size: 100px;
+  margin-bottom: 12px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	padding: 20px 0;
+}
+h3{
+	text-transform: capitalize;
+    
+}
+#main{
+	
+	height: auto;
+	text-align: center;
+	align-content: center;
+	background-color: #f8f9fa;
+}
+#image{
+	padding-top: 50px;
+	transition: 2s;
+}
+#image:hover{
+	-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+#img-caption{
+	padding: 20px 0;
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+#tribute-info{
+	width: 800px;
+	text-align: center;
+	align-content: center;
+	margin: 0 auto;
+	padding: 30px 0;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+
+}
+#image-div{
+	background-color: #fff;
+}
+.steve_quote{
+    border-top: 2px solid #ccc;
+     border-bottom: 2px solid #ccc;
+     padding: 30px ;
+     width: 700px;
+     text-align: center;
+     margin: 0 auto;
+}
+#quote{
+	font-size: 30px;
+	color: #6c757d;
+}
+cite{
+	font-size: 20px !important;
+	color: #6c757d;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+#title{
+     font-size: 50px;
+}
+#main{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-content: center;
+}
+#image{
+	max-width: 100%;
+	height: auto;
+   padding-top: 50px 0px 0px 60px;
+	transition: 2s;
+}
+h2{
+
+	font-size: 30px;
+}
+h3{
+	font-size: 30px;
+}
+p{
+ 
+ font-size: 18px;
+  
+
+}
+#tribute-info{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+
+}
+.steve_quote{
+    
+     width: 80%;
+     text-align: center;
+     margin: 0 auto;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+#main{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-content: center;
+	}
+	p{
+ 
+ font-size: 18px;
+  
+
+}
+#tribute-info{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+
+}
+}
